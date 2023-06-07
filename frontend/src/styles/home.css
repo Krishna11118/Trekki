@@ -1,0 +1,229 @@
+.background {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.hero__subtitle img {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+.hero__content h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: back;
+}
+
+.hero__content h1 .highlight {
+  color: #7b74f0;
+  color: ;
+}
+
+.hero__content p {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  line-height: 2rem;
+}
+
+.disable-selection {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /*  Chrome and Opera */
+}
+
+.hero__image-box img {
+  width: 450px;
+  height: 420px;
+  border-radius: 50%;
+  border: 1px solid #7b74f0;
+  object-fit: cover;
+  animation: pulse 6s infinite;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(0);
+    border-color: #7b74f0;
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  150% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.hero__content {
+  padding-top: 3.5rem;
+}
+.hero__image-box {
+  padding-top: 2rem;
+}
+.services__subtitle {
+  font-style: 2.5rem;
+  font-weight: 1000;
+  color: #ee6e6e;
+  font-family: var(--subtitle-font-name);
+}
+.services__title {
+  font-style: 2.8rem;
+  font-weight: 500;
+}
+
+.featured__tour-title {
+    border-radius: 30px 30px 30px 30px;
+    width: 450px;
+    height: 70px;
+    padding: 20px;
+    display: flex;
+    padding-left: 30px;
+    direction: rtl;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0;
+    align-items: center;
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem;
+}
+
+.experience__content h2 {
+  font-size: 2.5rem;
+  margin-top: 5rem;
+  font-weight: 500;
+}
+.experience__content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 5rem;
+  font-weight: 500;
+  color: #7b74f0;
+}
+.experience__content p {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  margin-top: 1rem;
+}
+.counter__wrapeer {
+  margin-top: 2.5rem;
+}
+/* ************* */
+.counter__box img {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 10px 5px 10px 5px;
+  transition: transform 0.1s ease-in-out;
+}
+
+.counter__box img:hover {
+  cursor: pointer;
+}
+
+.counter__box img:active {
+  transform: translateY(-50%);
+  /* opacity: 0; */
+  transition: all 0.1s;
+}
+
+.counter__box span {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 10px 5px 10px 5px;
+}
+.counter__box h6 {
+  font-size: 1.1rem;
+  margin-top: 0.7rem;
+  color: var(--text-color);
+}
+.experience__img img {
+  width: 99%;
+}
+.gallery__title {
+  font-size: 2.3rem;
+  margin-bottom: 2.5rem;
+  margin-top: 1rem;
+}
+.masonry__img {
+  transition: 0.3s;
+}
+.masonry__img:hover {
+  transform: scale(1.1);
+}
+.testimonial__title {
+  font-size: 2.3rem;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .hero__cntent h1 {
+    font-size: 2.8rem;
+  }
+  .featured__tour-title {
+    width: 350px;
+    height: 60px;
+    padding-left: 20px;
+    font-size: 1 rem;
+  }
+  .hero__image-box {
+    display: none;
+  }
+  .hero__video-box {
+    display: block;
+  }
+  .hero__video-box video {
+    display: block;
+  }
+  .services__title,
+  .featured__tour-title,
+  .gallery__title,
+  .testimonial__title,
+  .experience__content h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero__content h1 {
+    font-size: 1.8rem;
+  }
+
+  .services__title,
+  featured__tour-title,
+  .gallery__title,
+  .testimonial__title,
+  .experience__content h2 {
+    font-size: 1rem;
+  }
+  .featured__tour-title {
+    display: flex;
+    width: 260px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 30px;
+  }
+}
+
+body {
+  background-color: skyblue;
+}

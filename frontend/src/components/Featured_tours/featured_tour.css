@@ -1,0 +1,13 @@
+.loading_gif {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading_gif img {
+    width: 400px;
+    height: 320px;
+    /* background-color: #fff; */
+}
