@@ -6,9 +6,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js",
-    "clint" : "npm start --prefix client",
-    "dev" : "concurrently \"npm start\" \"npm run clint\""
+    "start-dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
