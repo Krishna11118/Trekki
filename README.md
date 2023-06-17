@@ -133,9 +133,8 @@ Don't forget to give the project a star! <img src="https://res.cloudinary.com/dv
 
 Krishna - [@Whatsapp](https://wa.me/+917318378893) - krishnassss365@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/Krishna11118/Trekki.git](https://github.com/Krishna11118/Trekki.git)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
