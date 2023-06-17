@@ -1,8 +1,4 @@
 
-
-![Alt Text](https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687003287/Readme_Trekki/FinalGif2_jd9xgy.gif)
-
-
 <!-- PROJECT LOGO -->
 
 
@@ -51,7 +47,7 @@
 
 <div>
 
-<!-- <img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687003287/Readme_Trekki/FinalGif2_jd9xgy.gif"  alt="img"> -->
+<img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687003287/Readme_Trekki/FinalGif2_jd9xgy.gif"  alt="img">
 </div>
   Welcome to our travel booking website, where we make it easy for you to plan your dream vacation. Whether you're looking for a romantic getaway, a family vacation or an adventure-filled trip, we have a wide range of destinations available to suit all your traveling needs. Our user-friendly platform allows you to browse and book flights, hotels, car rentals, and activities with just a few clicks. We also offer  payment option, making it convenient for you to secure your bookings. Our team of travel experts is always available to assist you in planning your trip, and we strive to provide you with the best travel experience possible. Start planning your next adventure today!
 
@@ -110,8 +106,18 @@ To get a local copy up and running follow these simple example steps.
 
 
 <!-- USAGE EXAMPLES -->
+## Tour Packages
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<!-- ![Alt Text](https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687022907/Readme_Trekki/Readme2/Screenshot_208_f1cwd8.png ) -->
+<img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687022907/Readme_Trekki/Readme2/Screenshot_208_f1cwd8.png" width="956" height="538">
+
+## Filling details & reviews
+
+<img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687022906/Readme_Trekki/Readme2/Screenshot_203_gsorav.png" width="956" height="538">
+
+## Checkout
+
+<img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687022906/Readme_Trekki/Readme2/Screenshot_210_yczhim.png" width="956" height="538">
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
