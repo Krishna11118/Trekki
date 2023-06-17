@@ -96,14 +96,14 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install --global nodemon
    ```
-4. To start backend server
+4. To start Backend 
    ```js
    nodemon
    
    ```
-5. Install NPM packages
+5. To start Frontend 
    ```sh
-   npm install n
+   npm start 
    ```  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
