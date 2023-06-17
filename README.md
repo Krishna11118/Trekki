@@ -59,7 +59,7 @@
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+List of frameworks/libraries languages used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![React][React.js]][React-url]
 * [![Express][Expressjs.com]][Expressjs-url]
@@ -67,6 +67,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![Css][Css.com]][Css-url]
 * [![Html][Html.com]][Html-url]
+* [![Js][Js.com]][Js-url]
+
 
 
 
@@ -229,5 +231,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [Node-url]: https://nodejs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[Js.com]: https://img.shields.io/badge/JavaScript-E44C27?style=for-the-badge&logo=javascript&logoColor=black"
+[Js-url]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/
