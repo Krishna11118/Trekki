@@ -59,7 +59,7 @@
 
 ### Built With
 
-List of frameworks/libraries languages used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+List of frameworks/libraries/languages in this project.
 
 * [![React][React.js]][React-url]
 * [![Express][Expressjs.com]][Expressjs-url]
