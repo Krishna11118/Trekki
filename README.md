@@ -135,6 +135,9 @@ Krishna - [@Whatsapp](https://wa.me/+917318378893) - krishnassss365@gmail.com - 
 Project Link: [https://github.com/Krishna11118/Trekki.git](https://github.com/Krishna11118/Trekki.git)
 
 
+## License 
+
+* Project license open source [License ](https://github.com/Krishna11118/Trekki/blob/master/LICENSE)
 
 
 <!-- ACKNOWLEDGMENTS -->
