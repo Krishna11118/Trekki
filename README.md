@@ -106,41 +106,18 @@ To get a local copy up and running follow these simple example steps.
 
 
 <!-- USAGE EXAMPLES -->
-## Tour Packages
+## Tour Packages section
 
 <!-- ![Alt Text](https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687022907/Readme_Trekki/Readme2/Screenshot_208_f1cwd8.png ) -->
 <img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687022907/Readme_Trekki/Readme2/Screenshot_208_f1cwd8.png" width="956" height="538">
 
-## Filling details & reviews
+## Filling details & reviews section
 
 <img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687022906/Readme_Trekki/Readme2/Screenshot_203_gsorav.png" width="956" height="538">
 
-## Checkout
+## Checkout section
 
 <img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687022906/Readme_Trekki/Readme2/Screenshot_210_yczhim.png" width="956" height="538">
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -148,31 +125,13 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+Don't forget to give the project a star! <img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687024365/Readme_Trekki/Readme2/43154-removebg-preview_gellpu.png" width="20" height="20"> Thanks again!
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Krishna - [@Whatsapp](https://wa.me/+917318378893) - krishnassss365@gmail.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
