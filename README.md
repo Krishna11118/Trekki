@@ -46,7 +46,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <div>
-    <img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687003287/Readme_Trekki/FinalGif2_jd9xgy.gif" alt="img" width="700" height="500">
+  
+ <img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687003287/Readme_Trekki/FinalGif2_jd9xgy.gif" width="956" height="537" align="center">
+
 </div>
   There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
