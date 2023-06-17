@@ -118,7 +118,6 @@ To get a local copy up and running follow these simple example steps.
 <img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687022906/Readme_Trekki/Readme2/Screenshot_210_yczhim.png" width="956" height="538">
 
 
-<!-- <USa> -->
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -134,17 +133,15 @@ Krishna - [@Whatsapp](https://wa.me/+917318378893) - krishnassss365@gmail.com - 
 
 Project Link: [https://github.com/Krishna11118/Trekki.git](https://github.com/Krishna11118/Trekki.git)
 
-
-## License 
+<!-- <LICENSE> -->
+## License
 
 * Project license open source [License ](https://github.com/Krishna11118/Trekki/blob/master/LICENSE)
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
 
 * [Icon8 ](https://icons8.com/)
 * [Choose an Open Source License](https://choosealicense.com)
