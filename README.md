@@ -59,7 +59,7 @@
 
 ### Built With
 
-List of frameworks/libraries/languages in this project.
+List of frameworks/libraries/languages that used to built this project.
 
 * [![React][React.js]][React-url]
 * [![Express][Expressjs.com]][Expressjs-url]
