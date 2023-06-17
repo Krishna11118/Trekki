@@ -3,6 +3,9 @@
 
 
 <!-- PROJECT LOGO -->
+
+![alt text](https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687003287/Readme_Trekki/FinalGif2_jd9xgy.gif "Logo Title Text 1")
+
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
@@ -50,7 +53,6 @@
 <!--  <img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687003287/Readme_Trekki/FinalGif2_jd9xgy.gif" alt="img" width="956" height="537" align="center"
       > -->
 </div>
-![alt text](https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687003287/Readme_Trekki/FinalGif2_jd9xgy.gif "Logo Title Text 1")
 
   Welcome to our travel booking website, where we make it easy for you to plan your dream vacation. Whether you're looking for a romantic getaway, a family vacation or an adventure-filled trip, we have a wide range of destinations available to suit all your traveling needs. Our user-friendly platform allows you to browse and book flights, hotels, car rentals, and activities with just a few clicks. We also offer  payment option, making it convenient for you to secure your bookings. Our team of travel experts is always available to assist you in planning your trip, and we strive to provide you with the best travel experience possible. Start planning your next adventure today!
 
