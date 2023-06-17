@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687005049/Readme_Trekki/Readmelogo3_jul8y7.gif" alt="Logo" width="150" height="100">
+    <img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687005049/Readme_Trekki/Readmelogo3_jul8y7.gif" alt="Logo" width="150" height="130">
   </a>
 
 
