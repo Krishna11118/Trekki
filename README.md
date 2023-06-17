@@ -70,7 +70,7 @@ Use the `BLANK_README.md` to get started.
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![React][React.js]][React-url]
-* [![Express][Expressjs.com]][Express-url]
+* [![Express][Expressjs.com]][Expressjs-url]
 * [![Node][nodejs.org]][Node-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
@@ -225,6 +225,9 @@ Use this space to list resources you find helpful and would like to give credit 
 [Svelte-url]: https://svelte.dev/
 [Expressjs.com]: https://img.shields.io/badge/Expressjs-0FBEFE?style=for-the-badge&logo=express&logoColor=black
 [Expressjs-url]: https://expressjs.com/
+[Css.com]: https://img.shields.io/badge/Css-C14FB9?style=for-the-badge&logo=css&logoColor=black"
+[Css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS/
+
 [Nodejs.org]: https://img.shields.io/badge/Nodejs-35802E?style=for-the-badge&logo=nodejs&logoColor=white
 [Node-url]: https://nodejs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
