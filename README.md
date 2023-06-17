@@ -133,10 +133,7 @@ Krishna - [@Whatsapp](https://wa.me/+917318378893) - krishnassss365@gmail.com - 
 
 Project Link: [https://github.com/Krishna11118/Trekki.git](https://github.com/Krishna11118/Trekki.git)
 
-<!-- <LICENSE> -->
-## License
 
-* Project license open source [License ](https://github.com/Krishna11118/Trekki/blob/master/LICENSE)
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -153,7 +150,12 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
+<hr>
 
+<!-- <LICENSE> -->
+## License
+
+* Completely free (MIT)! See LICENSE.md for more. [License ](https://github.com/Krishna11118/Trekki/blob/master/LICENSE)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
