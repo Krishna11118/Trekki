@@ -216,7 +216,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [Svelte-url]: https://svelte.dev/
 [Expressjs.com]: https://img.shields.io/badge/Expressjs-0FBEFE?style=for-the-badge&logo=express&logoColor=black
 [Expressjs-url]: https://expressjs.com/
-[Css.com]: https://img.shields.io/badge/Css-C14FB9?style=for-the-badge&logo=css3&logoColor=black"
+[Css.com]: https://img.shields.io/badge/Css-C14FB9?style=for-the-badge&logo=css3&logoColor=black
 [Css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS/
 [Html.com]: https://img.shields.io/badge/HTML-E44C27?style=for-the-badge&logo=html5&logoColor=black
 [Html-url]: https://html.com/
@@ -224,5 +224,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [Node-url]: https://nodejs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
-[Js.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"
+[Js.com]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white
 [Js-url]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/
