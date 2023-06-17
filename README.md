@@ -130,7 +130,7 @@ Don't forget to give the project a star! <img src="https://res.cloudinary.com/dv
 <!-- CONTACT -->
 ## Contact
 
-Krishna - [@Whatsapp](https://wa.me/+917318378893) - krishnassss365@gmail.com
+Krishna - [@Whatsapp](https://wa.me/+917318378893) - krishnassss365@gmail.com - [@LinkedIn](https://www.linkedin.com/in/krishna365/)
 
 Project Link: [https://github.com/Krishna11118/Trekki.git](https://github.com/Krishna11118/Trekki.git)
 
