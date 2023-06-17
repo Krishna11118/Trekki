@@ -220,7 +220,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [Css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS/
 [Html.com]: https://img.shields.io/badge/HTML-E44C27?style=for-the-badge&logo=HTML&logoColor=black
 [Html-url]: https://html.com/
-[Nodejs.org]: https://img.shields.io/badge/Nodejs-35802E?style=for-the-badge&logo=nodejs&logoColor=white
+[Nodejs.org]: https://img.shields.io/badge/Nodejs-35802E?style=for-the-badge&logo=nodedotjs&logoColor=white
 [Node-url]: https://nodejs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
