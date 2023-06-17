@@ -53,9 +53,6 @@
   Welcome to our travel booking website, where we make it easy for you to plan your dream vacation. Whether you're looking for a romantic getaway, a family vacation or an adventure-filled trip, we have a wide range of destinations available to suit all your traveling needs. Our user-friendly platform allows you to browse and book flights, hotels, car rentals, and activities with just a few clicks. We also offer  payment option, making it convenient for you to secure your bookings. Our team of travel experts is always available to assist you in planning your trip, and we strive to provide you with the best travel experience possible. Start planning your next adventure today!
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
@@ -70,16 +67,10 @@ List of frameworks/libraries/languages that used to built this project.
 * [![Js][Js.com]][Js-url]
 
 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
+ 
+Instructions for setting up project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -92,21 +83,28 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/Krishna11118/Trekki.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
-   npm install
+   npm install n
    ```
-4. Enter your API in `config.js`
+3. Install Nodemon packages
+   ```sh
+   npm install --global nodemon
+   ```
+4. To start backend server
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   nodemon
+   
    ```
+ 5. Install NPM packages
+   ```sh
+   npm install n
+   ```  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
