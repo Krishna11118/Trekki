@@ -75,11 +75,15 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
   ```
+  
+* Install Nodemon packages
+   ```sh
+   npm install --global nodemon
+   ```
 
 ### Installation
 
@@ -92,16 +96,11 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install n
    ```
-3. Install Nodemon packages
-   ```sh
-   npm install --global nodemon
-   ```
-4. To start Backend 
+3. To start Backend 
    ```js
    nodemon
-   
    ```
-5. To start Frontend 
+4. To start Frontend 
    ```sh
    npm start 
    ```  
