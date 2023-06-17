@@ -73,6 +73,10 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![Express][Expressjs.com]][Expressjs-url]
 * [![Node][nodejs.org]][Node-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![Css][Css.com]][Css-url]
+* [![Html][Html.com]][Html-url]
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -227,7 +231,8 @@ Use this space to list resources you find helpful and would like to give credit 
 [Expressjs-url]: https://expressjs.com/
 [Css.com]: https://img.shields.io/badge/Css-C14FB9?style=for-the-badge&logo=css&logoColor=black"
 [Css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS/
-
+[Html.com]: https://img.shields.io/badge/HTML-E44C27?style=for-the-badge&logo=HTML&logoColor=black
+[Html-url]: https://html.com/
 [Nodejs.org]: https://img.shields.io/badge/Nodejs-35802E?style=for-the-badge&logo=nodejs&logoColor=white
 [Node-url]: https://nodejs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
