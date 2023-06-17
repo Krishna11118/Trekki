@@ -32,7 +32,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -105,7 +104,6 @@ To get a local copy up and running follow these simple example steps.
    ```  
 
 
-<!-- USAGE EXAMPLES -->
 ## Tour Packages section
 
 <!-- ![Alt Text](https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687022907/Readme_Trekki/Readme2/Screenshot_208_f1cwd8.png ) -->
@@ -118,6 +116,9 @@ To get a local copy up and running follow these simple example steps.
 ## Checkout section
 
 <img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687022906/Readme_Trekki/Readme2/Screenshot_210_yczhim.png" width="956" height="538">
+
+
+<!-- <USa> -->
 
 <!-- CONTRIBUTING -->
 ## Contributing
