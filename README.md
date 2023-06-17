@@ -231,5 +231,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [Node-url]: https://nodejs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
-[Js.com]: https://img.shields.io/badge/JavaScript-EED91D?style=for-the-badge&logo=javascript&logoColor=#000"
+[Js.com]: https://img.shields.io/badge/JavaScript-EED91D?style=for-the-badge&logo=javascript&logoColor=Black"
 [Js-url]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/
