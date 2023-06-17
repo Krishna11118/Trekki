@@ -101,7 +101,7 @@ This is an example of how to list things you need to use the software and how to
    nodemon
    
    ```
- 5. Install NPM packages
+5. Install NPM packages
    ```sh
    npm install n
    ```  
