@@ -113,13 +113,17 @@ To get a local copy up and running follow these simple example steps.
 <!-- ![Alt Text](https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687022907/Readme_Trekki/Readme2/Screenshot_208_f1cwd8.png ) -->
 <img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687022907/Readme_Trekki/Readme2/Screenshot_208_f1cwd8.png" width="956" height="500">
 
+## Tour details & booking form
+
+<img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687116254/Readme_Trekki/Trekki2/Screenshot_220_tucabn.png" width="956" height="480">
+
 ## Filling details & reviews section
 
 <img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687022906/Readme_Trekki/Readme2/Screenshot_203_gsorav.png" width="956" height="480">
 
 ## Checkout section
 
-<img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687022906/Readme_Trekki/Readme2/Screenshot_210_yczhim.png" width="956" height="538">
+<img src="https://res.cloudinary.com/dvjnxuxxj/image/upload/v1687115995/Readme_Trekki/Trekki2/Screenshot_215_iin9qe.png" width="956" height="538">
 
 
 
