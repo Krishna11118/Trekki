@@ -82,6 +82,10 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    npm install --global nodemon
    ```
+* Install Express packages
+   ```sh
+  npm install -g express-generator
+   ```
 
 ### Installation
 
@@ -92,11 +96,11 @@ To get a local copy up and running follow these simple example steps.
    ```
 2. Install NPM packages
    ```sh
-   npm install n
+   npm install
    ```
 3. To start Backend 
    ```js
-   nodemon
+   nodemon  or npm run start-dev 
    ```
 4. To start Frontend 
    ```sh
