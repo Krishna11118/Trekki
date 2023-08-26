@@ -9,6 +9,7 @@ export const createTour = async (req, res) => {
   try {
     const savedtour = await newTour.save();
 
+    
     res.
       status(200).json({
         success: true,
