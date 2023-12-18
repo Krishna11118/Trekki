@@ -1,4 +1,4 @@
-import Tour from "../models/tour.js";
+import Tour from "../models/Tour";
 
 // Create New tour
 export const createTour = async (req, res) => {

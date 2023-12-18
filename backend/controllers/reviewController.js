@@ -1,4 +1,4 @@
-import tour from "../models/tour.js";
+import tour from "../models/Tour.js";
 import Review from "../models/Review.js";
 
 export const createReview = async (req, res) => {
