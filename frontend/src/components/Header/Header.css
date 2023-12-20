@@ -1,11 +1,31 @@
-.header {
-  width: 100%;
-  line-height: 80px;
-  background-color : #d3d1fa;
-  
+.headerUserName {
+  margin-bottom: 35px;
 
 }
-  
+.header {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #d3d1fa;
+  padding: 0 20px;
+}
+
+.register_img {
+  margin: right 10px;
+}
+.login_button {
+  margin: 0 0 38px 40px;
+}
+
+.login_button:hover {
+  background-color: #2b3b94 !important;
+  color: white !important;
+}
+.register_button:hover {
+  background-color: #2b3b94 !important;
+  color: white !important;
+}
+
 .disable-selection {
   -webkit-user-select: none; /* Safari */
   -moz-user-select: none; /* Firefox */
@@ -13,8 +33,7 @@
   user-select: none; /*  Chrome and Opera */
 }
 .logo img {
-  width: 30%;
-  
+  width: 22%;
 }
 .logo {
   height: 100px;
@@ -25,6 +44,10 @@
 }
 .menu {
   margin-bottom: 0;
+}
+
+.nav__item {
+  margin-bottom: 38px;
 }
 
 .nav__item a {
@@ -44,6 +67,7 @@
   font-size: 1.3rem;
   color: var(--heading-color);
   display: none;
+  margin-bottom: 38px;
 }
 .sticky__header {
   width: 100%;
@@ -61,8 +85,16 @@
 
 @media only screen and (max-width: 992px) {
   .logo img {
-    width: 45%;
+    width: 30%;
   }
+  .logo {
+    height: 100px;
+    width: 200px;
+    /* margin-bottom: 0px !important;  */
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .navigation {
     width: 100%;
     height: 100%;
@@ -92,22 +124,14 @@
   .mobile__menu {
     display: block;
   }
-  .logo {
-    height: 100px;
-    width: 200px;
-    /* margin-bottom: 0px !important;  */
-  }
-}
 
-@media only screen and (max-width: 768px) {
   .logo img {
-    width: 45%;
+    width: 30%;
   }
 
   .menu {
-    width: cal(100% - 50%);
+    width: calc(100% - 50%);
   }
-  
   .logo {
     height: 100px;
     width: 200px;

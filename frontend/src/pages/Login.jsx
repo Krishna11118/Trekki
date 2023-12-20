@@ -1,13 +1,12 @@
 import React, { useState, useContext } from "react";
 import { Container, Row, Col, Form, FormGroup, Button } from "reactstrap";
 import { Link, useNavigate } from "react-router-dom";
+import loginImg from "../assets/images/log--in.png";
+import { toast } from "react-hot-toast";
 import "../styles/login.css";
 
-import loginImg from "../assets/images/loginagain.png";
-import userIcon from "../assets/images/user.png";
-
 import { AuthContext } from "../context/AuthContext";
-import { BASE_URL } from "../utils/config";  
+import { BASE_URL } from "../utils/config";
 
 const Login = () => {
   const [credentials, setCredentials] = useState({
@@ -38,14 +37,16 @@ const Login = () => {
       });
 
       const result = await res.json();
-      if (!res.ok) alert(result.message);
+      if (!res.ok) toast.error(result.message);
       else {
         localStorage.setItem("data", JSON.stringify(result?.data));
 
         dispatch({ type: "LOGIN_SUCCESS", payload: result.data });
+        toast.success("Login Successful");
         navigate("/");
       }
     } catch (error) {
+      toast.error(error.message);
       dispatch({ type: "LOGIN_FAILURE", payload: error.message });
     }
   };
@@ -54,16 +55,12 @@ const Login = () => {
     <section>
       <Container>
         <Row>
-          <Col lg="8" className="m-auto">
-            <div className="login__container d-flex justify-content-between">
+          <Col lg="8" className="m-auto ">
+            <div className="login__container d-flex justify-content-between mainDiv">
               <div className="login__img">
-                <img src={loginImg} alt="" />
+                <img src={loginImg} alt="loginImg" />
               </div>
-
               <div className="login__form">
-                {/* <div className="user">
-                  <img src={userIcon} alt="" />
-                </div> */}
                 <h2>Login</h2>
 
                 <Form onSubmit={handleClick}>
@@ -79,21 +76,24 @@ const Login = () => {
                   <FormGroup>
                     <input
                       type="password"
-                      placeholder="password"
+                      placeholder="Password"
                       required
                       id="password"
                       onChange={handleChange}
                     />
                   </FormGroup>
                   <Button
-                    className="btn secondary__btn auth__btn"
+                    className="btn secondary__btn auth__btn  "
                     type="submit"
                   >
                     Login
                   </Button>
                 </Form>
                 <p>
-                  Don't have an account? <Link to="/register">Create</Link>
+                  Don't have an account?
+                  <Link to="/register " className="loginRegisterButton">
+                    Create
+                  </Link>
                 </p>
               </div>
             </div>

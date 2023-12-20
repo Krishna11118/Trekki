@@ -1,152 +1,143 @@
-.tour__content img{
-    width:100%;
-    border-radius: .5rem;
-    margin-bottom: 2.5rem;
+.tour__content img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 2.5rem;
 }
 
-.tour__info, 
-.tour__reviews{   
-    border-radius: .5rem;
-    border: 1px solid rgb(229,231,235);
-    padding: 2rem;
+.tour__info,
+.tour__reviews {
+  border-radius: 0.5rem;
+  border: 1px solid rgb(229, 231, 235);
+  padding: 2rem;
 }
-.tour__info h2{
-    font-size: 1.5rem;
-  
+.tour__info h2 {
+  font-size: 1.5rem;
 }
-.tour__info span{
-    display: flex;
-    align-items:center;
-    column-gap:0.5rem;
-    gap:0.5rem;
-    font-style: 1rem;
-    color: var(--text-color);
+.tour__info span {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  gap: 0.5rem;
+  font-style: 1rem;
+  color: var(--text-color);
 }
 .tour__info span i {
-    color: var(--heading-color);
-    font-size: 1.1rem;
+  color: var(--heading-color);
+  font-size: 1.1rem;
 }
 
-.tour__extra-details{
-    display:flex;
-    align-items: center;
-    column-gap: 2.7rem;
-    margin-top: 1rem;
-    margin-bottom: 2.5rem;
+.tour__extra-details {
+  display: flex;
+  align-items: center;
+  column-gap: 2.7rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
 }
 
-.tour__info h5{
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
+.tour__info h5 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
 }
-.tour__info p{
-    line-height: 30px;
-    font-size: 1rem;
-    color: var(--text-color);
+.tour__info p {
+  line-height: 30px;
+  font-size: 1rem;
+  color: var(--text-color);
 }
 
-.rating__group{
-    font-size: 1.1rem;
-    display: flex;
-    align-items: center;
-    color: var(--secondary-color);
-    cursor: pointer;
+.rating__group {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  color: var(--secondary-color);
+  cursor: pointer;
 }
 .rating__group :hover {
-    font-size: 1.1rem;
-    display: flex;
-    align-items: center;
-    color: #7B74F0;
-    cursor: pointer;
-
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  color: #7b74f0;
+  cursor: pointer;
 }
 
-.tour__reviews h4{
-    margin-bottom: 3rem;
+.tour__reviews h4 {
+  margin-bottom: 3rem;
 }
 
-.review__input{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width:100%;
-    padding: 0.7rem;
-    border-radius: 2rem;
-    border: 1px solid #7B74F0;
-
+.review__input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 2rem;
+  border: 1px solid #7b74f0;
 }
 
-.review__input input{
-    width:100%;
-    padding: 0.5rem 0;
-    border:none;
-
+.review__input input {
+  width: 100%;
+  padding: 0.5rem 0;
+  border: none;
 }
 
-.review__input input:focus{
-    outline:none;
+.review__input input:focus {
+  outline: none;
 }
 
-.review__item{
-    display:flex;
-    align-items: center;
-    column-gap: 1rem;
-    margin-bottom: 2rem;
+.review__item {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  margin-bottom: 2rem;
 }
 
-.review__item img{
-   width: 3.5rem;
-   height:3.5rem;
-   border-radius: 50px;
-   object-fit:cover;
+.review__item img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50px;
+  object-fit: cover;
 }
 
-
-.user__reviews{
-    margin-top:2.5rem;
+.user__reviews {
+  margin-top: 2.5rem;
 }
-.review__item h5{
+.review__item h5 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+review__item p {
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.review__item h6 {
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+.review__item span i {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+
+.review__item span {
+  font-weight: 500;
+}
+
+.submit_button:hover {
+  background-color: #453bf5 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .tour__extra-details {
+    flex-wrap: wrap;
+    row-gap: 1rem;
+  }
+
+  .tour__extra-details span {
+    font-size: 0.9rem;
+  }
+  .tour__extra-details span i {
     font-size: 1rem;
-    margin-bottom: 0;
-}
-
-review__item p{
-    font-size: .9rem;
-    color: var(--text-color);
-}
-
-.review__item h6{
-    font-size: 1.1rem;
-    color: var(--text-color);
-}
-
-
-.review__item span i{
-    font-size: 1.2rem;
-    color: var(--secondary-color);
-}
-
-
-.review__item span{
-    font-weight:500;
-}
-
-@media  only screen and (max-width: 768px ){
- 
-  
-    .tour__extra-details{
-        flex-wrap: wrap; 
-        row-gap: 1rem;
-    }
-
-    .tour__extra-details span{
-        font-size :0.9rem;
-
-
-    }
-    .tour__extra-details span i{
-        font-size :1rem;
-    }
-
-
+  }
 }

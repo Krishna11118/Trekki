@@ -4,7 +4,7 @@ import { NavLink, Link, useNavigate } from 'react-router-dom'
 import logo from '../../assets/images/logoGif2.gif'
 import './Header.css';
 import { AuthContext } from '../../context/AuthContext'
-// import  headerImg from '../../assets/images/headerimg.png'
+import { toast } from 'react-hot-toast'
 
 const nav__links = [
   {
@@ -26,7 +26,7 @@ const nav__links = [
 
 const Header = () => {
 
-  const handleLogo = () =>  window.location = '/';
+  const handleLogo = () =>  navigate("/");
 
   const headerRef = useRef(null)
   const menuRef = useRef(null)
@@ -39,6 +39,7 @@ const Header = () => {
   
 
   const logout = () => {
+    toast.success('See you soon!')
     dispatch({ type: 'LOGOUT' })
     navigate('/')
     localStorage.clear()
@@ -69,7 +70,7 @@ const Header = () => {
  
     <Container>
       <Row>
-        <div className="nav_wrapper d-flex align-items-center justify-content-between">
+        <div className=" d-flex align-items-center justify-content-between">
             {/* logo  */}
           <div onClick={handleLogo} className="logo disable-selection">
             <img src={logo} alt="logo of the website" />
@@ -97,20 +98,20 @@ const Header = () => {
 
               { userData ? (
                 <>
-                 
-                  <h5 className="mb=0">{userData?.username.toUpperCase()}</h5>
-
-                  <Button className="btn btn-dark"
+                  <div className='headerUserName'>
+                  <h5 className="mb=0 ">{userData?.username.toUpperCase()}</h5>
+                  </div>
+                  <Button className="btn primary__btn login_button"
                     onClick={logout}>Logout
                   </Button>
                 </> 
                 ):(
                   <>
-                  <Button className='btn secondary__btn login_button'>
+                  <Button className='btn primary__btn login_button '>
                     <Link to='/login'>Login
                     </Link>
                   </Button>
-                  <Button className='btn primary__btn'>
+                  <Button className='btn primary__btn login_button'>
                     <Link to='/register'>Register
                     </Link>
                   </Button> 

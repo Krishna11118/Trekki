@@ -53,7 +53,7 @@ export const login = async (req, res) => {
     // if password is incorrect
 
     if (!checkCorrectPassword) {
-      return res.status(401).json({ success: false, message: "Incorrect email or password" });
+      return res.status(401).json({ success: false, message: "Incorrect password" });
     }
 
     const { password, role, ...rest } = user._doc;

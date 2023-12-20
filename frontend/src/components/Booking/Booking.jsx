@@ -1,84 +1,96 @@
 import React, { useState } from "react";
 import "./booking.css";
 import { Form, FormGroup, ListGroup, ListGroupItem, Button } from "reactstrap";
-
 import { useNavigate } from "react-router-dom";
 import { BASE_URL } from "../../utils/config";
-
-
+import { toast } from "react-hot-toast";
 
 const Booking = ({ tour, avgRating }) => {
-    const { price, reviews , title } = tour;
-    const navigate = useNavigate();
-  
-    //   ================= Definining user data ===============
-    const userData = JSON.parse(localStorage.getItem("data"));
-    const user = userData && userData.username;
-    // ========================================================
-  
-    const [booking, setBooking] = useState({
-      userId: userData && userData._id,
-      userEmail: userData && userData.email,
-      tourName : title, 
-      fullName: "",
-      phone: "",
-      guestSize: 2,  
-      bookAt: "",
-    });
-  
-    const handleChange = (e) => {
-      setBooking((prev) => ({ ...prev, [e.target.id]: e.target.value }));
-    };
-  
-    const serviceFee = 1500;
-    const totalAmount =
-      Number(price) * Number(booking.guestSize) + Number(serviceFee);
-  
-    //   send data to the server
-    const handleClick = async (e) => {
-      e.preventDefault();
-  
-  
-      try {
-        if (!user) {
-          return alert("Please log in first");
-        }
-  
-        const res = await fetch(`${BASE_URL}/booking`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          credentials: "include",
-          body: JSON.stringify(booking),
-        });
-  
-        const result = await res.json();
-  
-        if (!res.ok) {
-          alert(result.message);
-        }
-  
-        navigate("/gateway");
-      } catch (error) {
-        alert(error.message);
-      }
-    };
-  
-    // Check if user is logged in before proceeding with booking process  =====*********###### OPTIONAL
+  const { price, reviews, title } = tour;
+  const navigate = useNavigate();
 
-    // if (!user) {
-    //   return <div>Please log in to book this tour</div>;
-    // }
-    // 
-  
+  const userData = JSON.parse(localStorage.getItem("data"));
+  const user = userData && userData.username;
+
+  const [booking, setBooking] = useState({
+    userId: userData && userData._id,
+    userEmail: userData && userData.email,
+    tourName: title,
+    fullName: "",
+    phone: "",
+    guestSize: "",
+    bookAt: "",
+  });
+
+  const handleChange = (e) => {
+    const { id, value } = e.target;
+
+    // Check for empty values
+    if (value.trim() === "") {
+      // Handle empty value, e.g., show an error message
+      console.log(`Field ${id} cannot be empty`);
+      // You may also set an error state or display a message to the user
+    } else {
+      setBooking((prev) => ({ ...prev, [id]: value }));
+    }
+  };
+
+  const serviceFee = 1500;
+  const totalAmount =
+    Number(price) * Number(booking.guestSize) + Number(serviceFee);
+
+  const handleClick = async (e) => {
+    e.preventDefault();
+
+    // Check if any required field is empty
+    const requiredFields = ["fullName", "phone", "guestSize", "bookAt"];
+    const isEmptyField = requiredFields.some(
+      (field) => !booking[field] || booking[field].trim() === ""
+    );
+
+    if (!userData) {
+      toast.error("Please login ");
+      return;
+    }
+
+    if (isEmptyField) {
+      toast.error("Please fill all the fields");
+      return;
+    }
+
+    try {
+      if (!user) {
+        return toast.error("Please log in first");
+      }
+
+      const res = await fetch(`${BASE_URL}/booking`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        credentials: "include",
+        body: JSON.stringify(booking),
+      });
+
+      const result = await res.json();
+
+      if (!res.ok) {
+        toast.error(result.message);
+      }
+
+      navigate("/gateway");
+    } catch (error) {
+      toast.error(error.message);
+    }
+  };
+
   return (
     <div className="booking">
       <div className="booking__top d-flex align-items-center justify-content-between">
         <h3>
-        ₹{price} <span>/per person</span>
+          ₹{price} <span>/per person</span>
         </h3>
         <span className="tour__rating d-flex align-items-center ">
-          <i className="ri-star-s-fill"></i> {avgRating === 0 ? null : avgRating} (
-          {reviews?.length})
+          <i className="ri-star-s-fill"></i>{" "}
+          {avgRating === 0 ? null : avgRating} ({reviews?.length})
         </span>
       </div>
 
@@ -129,7 +141,8 @@ const Booking = ({ tour, avgRating }) => {
         <ListGroup>
           <ListGroupItem className="border-0 px-0">
             <h5 className="d-flex align-items-center gap-1">
-              ₹{price} <i className="ri-close-line"></i> 1 person (incl. all Tax)
+              ₹{price} <i className="ri-close-line"></i> 1 person (incl. all
+              Tax)
             </h5>
             <span>₹{price}</span>
           </ListGroupItem>
@@ -142,7 +155,10 @@ const Booking = ({ tour, avgRating }) => {
             <span> ₹{totalAmount}</span>
           </ListGroupItem>
         </ListGroup>
-        <Button  className=" btn primary__btn w-100 mt-4" onClick={handleClick}>
+        <Button
+          className=" btn primary__btn w-100 mt-4 bookNow_button"
+          onClick={handleClick}
+        >
           Book Now
         </Button>
       </div>

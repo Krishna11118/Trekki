@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../styles/home.css";
 import heroImg from "../assets/images/heroself.jpg";
 import { Container, Row, Col } from "reactstrap";
 import experienceImg from "../assets/images/experience1.png";
@@ -9,6 +8,7 @@ import Testimonials from "../components/Testimonial/Testimonials";
 import Heart from "../assets/images/heart.png";
 import Like from "../assets/images/like.png";
 import Fire from "../assets/images/fire.png";
+import "../styles/home.css";
 
 const Home = () => {
   //  var a = 0;

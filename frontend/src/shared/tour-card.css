@@ -74,6 +74,10 @@
   color: #fff;
 }
 
+.booking__btn:hover {
+  background-color: #453bf5 !important;
+}
+
 @media only screen and (max-width: 576px) {
   .tour__title {
     font-size: 1rem;
@@ -86,6 +90,7 @@
      padding: 0.2rem 0.5rem !important;
 
 }
+
 
 .tour__location , .tour__rating {
     font-size: 0.8rem;  

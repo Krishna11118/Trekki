@@ -2,8 +2,14 @@
     padding-top: 70px;
     padding-bottom: 30px;
 }
+
+.footer-media {
+    text-align: center;
+    justify-content: center
+}
+
 .footer .logo img{
-    width: 50%;
+    width: 20%;
     margin-bottom: 1rem;
 }
 .footer .logo p{
@@ -36,4 +42,13 @@
     color: var(--text-color);
     font-size: 1rem;
     
+}
+
+@media only screen and (max-width: 768){
+    .footer-media{
+        /* display:flex; */
+        /* flex-direction:color */
+
+    }
+
 }

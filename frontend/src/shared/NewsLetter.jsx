@@ -3,12 +3,13 @@ import "./newsletter.css";
 import { Container, Row, Col } from "reactstrap";
 import maleTourist from "../assets/images/male-tourist.png";
 import Subscribe from "../assets/images/subscribe.png";
+import toast from "react-hot-toast";
 
 const NewsLetter = () => {
   const [email, setEmail] = useState("");
 
   const handleSubscribe = () => {
-    alert("Subscribed!");
+    toast.success("Subscribed!");
     setEmail("");
   };
 

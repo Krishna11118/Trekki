@@ -5,6 +5,7 @@ import logo from '../../assets/images/logo 2.png'
 import './gateway.css'
 import { AuthContext } from '../../context/AuthContext'
 import PaymentImg from '../../assets/images/payment.png'
+import toast from 'react-hot-toast'
 
 const Gateway = () => {
   const navigate = useNavigate()
@@ -17,7 +18,7 @@ const Gateway = () => {
     const securityCode = document.getElementById('security-code').value
 
     if (cardNumber === '' || cardName === '' || expiryDate === '' || securityCode === '') {
-      alert('Please fill in all the required fields')
+      toast.error('Please fill in all the required fields')
     } else {
       navigate('/thank-you')
     }

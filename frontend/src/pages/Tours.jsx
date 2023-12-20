@@ -7,6 +7,7 @@ import NewsLetter from "../shared/NewsLetter";
 import { Container, Row, Col } from "reactstrap";
 import { useEffect, useState } from "react";
 import LoadingGif from "../assets/images/loadingGif3.gif";
+import { toast } from "react-hot-toast";
 
 
 import useFetch from "../hooks/useFetch";
@@ -15,10 +16,13 @@ import { BASE_URL } from "../utils/config";
 const Tours = () => {
   const [pageCount, setPageCount] = useState(0);
   const [page, setPage] = useState();
+  const [toastId, setToastId] = useState(null);
+
 
   const {
     data: tours,
     error,
+    loading
   } = useFetch(`${BASE_URL}/tours?page=${page}`);
   const { data: tourCount } = useFetch(`${BASE_URL}/tours/search/getTourCount`);
 
@@ -28,17 +32,21 @@ const Tours = () => {
     setPageCount(pages);
   }, [page, tourCount, tours]);
 
-  const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-      // Set a timeout function to hide the loading GIF after 3 seconds
-      const timeout = setTimeout(() => {
-        setLoading(false);
-      }, 2000);
-    
-      // Clean up the timeout on unmount or re-render to avoid memory leaks
-      return () => clearTimeout(timeout);
-    }, []);
+  useEffect(() => {
+    // Display toast when error changes and toast is not already displayed
+    if (error && !toastId) {
+      const newToastId = toast.error(error);
+      setToastId(newToastId);
+    }
+
+    // Cleanup the toastId when component unmounts
+    return () => {
+      if (toastId) {
+        toast.dismiss(toastId);
+      }
+    };
+  }, [error, toastId]);
 
   return (
     <>
@@ -54,7 +62,7 @@ const Tours = () => {
       <section className="pt-0">
         <Container>
           {loading &&  <div className='loading_gif'><img src={LoadingGif} alt="loading_gif" /></div>}
-          {error && <h4 className="text-center pt-5">{error}</h4>}
+          {/* {error && <h4 className="text-center pt-5">{toast.error(error)}</h4>} */}
           {!loading && !error && (
             <Row>
               {tours?.map((tour) => (
