@@ -43,7 +43,6 @@ const TourDetails = () => {
   //submit request to the server
   const submitHandler = async (e) => {
     e.preventDefault();
- console.log("1")
     const userData = JSON.parse(localStorage.getItem("data"));
 
     // Check if userData is defined and not null
@@ -51,13 +50,11 @@ const TourDetails = () => {
       toast.error("Please login ");
       return;
     }
-    console.log("2")
 
     if (!tourRating) {
       toast.error("Please select rating");
       return;
     }
-    console.log(text.text,"text")
     try {
       const reviewObj = {
         username: userData?.username,
