@@ -47,8 +47,13 @@
 
 
   Welcome to our travel booking website, where we make it easy for you to plan your dream vacation. Whether you're looking for a romantic getaway, a family vacation, or an adventure-filled trip, we have a wide range of destinations available to suit all your traveling needs. We also offer  payment options, making it convenient for you to secure your bookings. Our team of travel experts is always available to assist you in planning your trip, and we strive to provide you with the best travel experience possible. Start planning your next adventure today!
+  
+👉 Live Demo: <a href='https://trekki.vercel.app/' style="margin-bottom:10px" >Live Demo</a>
+
+
 <div>
 
+ 
 <img src="https://github.com/Krishna11118/Trekki/blob/master/example/qTripGif3.gif"  alt="img" height="500px" width="">
 </div>
     
