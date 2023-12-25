@@ -11,7 +11,6 @@ import Fire from "../assets/images/fire.png";
 import "../styles/home.css";
 
 const Home = () => {
-  //  var a = 0;
 
   var [dur, setdu] = useState(0);
 
@@ -124,7 +123,6 @@ const Home = () => {
         </Container>
       </section>
 
-      {/* //////////////////////////////////Experinece section end/////////////////////// */}
 
      
 
@@ -142,8 +140,6 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-
-      {/* /////////////////////////////////////////testomonial section end/////////////////////// */}
 
 
     </>

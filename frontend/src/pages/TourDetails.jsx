@@ -43,7 +43,7 @@ const TourDetails = () => {
   //submit request to the server
   const submitHandler = async (e) => {
     e.preventDefault();
-
+ console.log("1")
     const userData = JSON.parse(localStorage.getItem("data"));
 
     // Check if userData is defined and not null
@@ -51,18 +51,20 @@ const TourDetails = () => {
       toast.error("Please login ");
       return;
     }
+    console.log("2")
 
     if (!tourRating) {
       toast.error("Please select rating");
       return;
     }
-
+    console.log(text.text,"text")
     try {
       const reviewObj = {
         username: userData?.username,
         reviewText: text.text,
         rating: tourRating,
       };
+      console.log(reviewObj,"reviewObj")
 
       const res = await fetch(`${BASE_URL}/review/${id}`, {
         method: "POST",
@@ -75,6 +77,8 @@ const TourDetails = () => {
 
       toast.success("Review added successfully");
     } catch (error) {
+      console.log("1")
+
       toast.error(error.message);
     }
   };

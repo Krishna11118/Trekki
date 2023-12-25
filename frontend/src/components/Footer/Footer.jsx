@@ -48,7 +48,7 @@ const Footer = () => {
 
             <div className="social__links footer__quick-links   gap-4">
               <span>
-                <a href="https://www.linkedin.com">
+                <a href="https://www.linkedin.com/in/krishna365">
                   <i className="ri-linkedin-box-line"></i>
                 </a>
               </span>

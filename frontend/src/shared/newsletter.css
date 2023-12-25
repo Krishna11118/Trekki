@@ -61,7 +61,11 @@ button {
    .newsletter__content h2 {
     font-size: 1.5 =rem;
     }
-
+    .newsletter__btn {
+        padding: 0.5rem 0.5rem  !important;
+        font-size: 1rem !important;
+        margin-right: 2rem !important;
+    }
 
  .newsletter__img {
     display: none ; 
@@ -74,4 +78,12 @@ button {
 }
    
 }
+}
+
+@media only screen and (max-width: 356px ){
+  
+    .newsletter__btn {
+        margin-right: 15px !important;
+    }
+
 }

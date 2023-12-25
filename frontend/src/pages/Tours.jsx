@@ -9,7 +9,6 @@ import { useEffect, useState } from "react";
 import LoadingGif from "../assets/images/loadingGif3.gif";
 import { toast } from "react-hot-toast";
 
-
 import useFetch from "../hooks/useFetch";
 import { BASE_URL } from "../utils/config";
 
@@ -18,20 +17,19 @@ const Tours = () => {
   const [page, setPage] = useState();
   const [toastId, setToastId] = useState(null);
 
-
   const {
     data: tours,
     error,
-    loading
+    loading,
   } = useFetch(`${BASE_URL}/tours?page=${page}`);
+
   const { data: tourCount } = useFetch(`${BASE_URL}/tours/search/getTourCount`);
 
   useEffect(() => {
-    const pages = Math.ceil(tourCount / 8); //later we will use backend data
+    const pages = Math.ceil(tourCount / 8); 
     window.scrollTo({ top: 0, behavior: "smooth" });
     setPageCount(pages);
   }, [page, tourCount, tours]);
-
 
   useEffect(() => {
     // Display toast when error changes and toast is not already displayed
@@ -61,7 +59,11 @@ const Tours = () => {
 
       <section className="pt-0">
         <Container>
-          {loading &&  <div className='loading_gif'><img src={LoadingGif} alt="loading_gif" /></div>}
+          {loading && (
+            <div className="loading_gif">
+              <img src={LoadingGif} alt="loading_gif" />
+            </div>
+          )}
           {/* {error && <h4 className="text-center pt-5">{toast.error(error)}</h4>} */}
           {!loading && !error && (
             <Row>
