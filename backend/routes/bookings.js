@@ -8,7 +8,7 @@ import {
 
 const router = express.Router();
 
-router.post("/", verifyUser, createBooking); 
+router.post("/", createBooking); 
 router.get("/:id", verifyUser, getBooking);
 router.get("/", verifyAdmin, getAllBooking);
 
