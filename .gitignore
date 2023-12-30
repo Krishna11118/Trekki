@@ -1,1 +1,7 @@
 .vercel
+# production
+./build
+./node_modules
+./.next
+./out
+./.vercel
